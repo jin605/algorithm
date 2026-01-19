@@ -1,4 +1,4 @@
-package main;
+package main.chap01;
 
 public class Multi99Table {
     static void main(String[] args) {

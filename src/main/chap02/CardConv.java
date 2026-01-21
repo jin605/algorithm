@@ -36,12 +36,12 @@ public class CardConv {
         System.out.println("10진수를 기수 변환합니다.");
         do{
             do{
-                System.out.println("변환하는 음이 아닌 정수 : ");
+                System.out.print("변환하는 음이 아닌 정수 : ");
                 no = Integer.parseInt(br.readLine());
             }while (no < 0);
 
             do{
-                System.out.println("어떤 진수로 변환할까요? (2~36)");
+                System.out.print("어떤 진수로 변환할까요? (2~36)");
                 cd = Integer.parseInt(br.readLine());
             }while (cd < 2 || cd > 36);
 
@@ -53,7 +53,7 @@ public class CardConv {
             }
             System.out.println("입니다.");
 
-            System.out.println("한 번 더 할까요? (1..예 / 0.. 아니요) : ");
+            System.out.print("한 번 더 할까요? (1..예 / 0.. 아니요) : ");
             retry = Integer.parseInt(br.readLine());
 
         }while (retry == 1);

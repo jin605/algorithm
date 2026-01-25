@@ -38,6 +38,7 @@ public class seqSearchSen {
 
         if (idx == -1){
             System.out.println("그 값의 요소가 없습니다.");
+
         } else {
             System.out.printf("그 값은 x[%d]에 있습니다.",idx);
         }

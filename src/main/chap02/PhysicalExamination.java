@@ -21,6 +21,7 @@ public class PhysicalExamination {
         }
     }
 
+
     static double aveHeight(PhyscData[] dat){
 
         double sum = 0;

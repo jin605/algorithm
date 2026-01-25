@@ -3,6 +3,7 @@
 out/
 *.class
 ex/
+*.iml
 
 ### Eclipse ###
 .apt_generated
